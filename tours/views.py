@@ -286,7 +286,6 @@ class DepartureView(View):
 
 class TourView(View):
     def get(self, request, id, *args, **kwargs):
-        context = {}
         context = tours[id]
         context["hotel_rating"] = int(tours[id]['stars']) * "★"
         context["form_url"] = form_url
