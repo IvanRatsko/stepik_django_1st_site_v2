@@ -25,8 +25,9 @@ SECRET_KEY = 'wpo)@$0iopg6%54uwa3+u#xm+dy96d^)6nnsivyfzxrg_2pln_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
+STATIC_ROOT = 'static'
 
 # Application definition
 
