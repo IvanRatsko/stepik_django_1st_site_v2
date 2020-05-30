@@ -2,11 +2,7 @@ from django.shortcuts import render
 from django.views import View
 from django.http import HttpResponseNotFound
 
-import logging
 import random
-
-# Get an instance of a logger
-logger = logging.getLogger(__name__)
 
 # Create your views here.
 form_url = "https://forms.gle/bXnQBdZ6uD5hmFoi9"
