@@ -1,0 +1,12 @@
+{% extends 'tours\base.html' %}
+
+{% block container %}
+    <section class="mt-3 pb-5">
+      <h1 class="display-3 mt-4">{{ title }} {{hotel_rating}}</h1>
+      <!-- HERO -->
+      <p class="lead"> {{ country }} {{ from }} {{ nights }} ночей</p>
+      <img src={{ picture }} class="w-75" alt="">
+      <p class="my-4 w-75">{{ description }}</p>
+      <a href="{{ form_url }}" class="btn btn-success btn-lg">Купить тур за {{ price }}₽</a>
+    </section>
+{% endblock %}
